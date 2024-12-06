@@ -1,5 +1,5 @@
-folium                    0.18.0
-streamlit                 1.40.2
-streamlit_folium          0.23.2
-geopy                     2.4.1
-torch                     2.5.1
+folium==0.18.0
+streamlit==1.40.2
+streamlit-folium==0.23.2
+geopy==2.4.1
+torch==2.5.1
