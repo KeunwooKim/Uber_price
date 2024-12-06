@@ -17,7 +17,7 @@ hidden_features = [512, 512, 256, 256]
 out_features = 1
 
 model = Model(in_features=in_features, hidden_features=hidden_features, out_features=out_features)
-model_file_path = '/Users/keunwookim/Downloads/Project/model/model.pth'
+model_file_path = '/model/model.pth'
 model.load_state_dict(torch.load(model_file_path))
 model.eval()
 
